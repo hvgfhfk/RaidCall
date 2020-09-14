@@ -1,0 +1,18 @@
+$Recycle.Bin
+Config.Msi
+Documents and Settings
+doit
+Intel
+m3xqSSJApJdybGYHwykCDu4q9s=
+Microsoft
+OneDriveTemp
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+Recovery
+System Volume Information
+Temp
+Users
+WcgzrAm8ivIUoo4DbBg+X0Lekc=
+Windows
