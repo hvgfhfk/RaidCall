@@ -126,7 +126,7 @@ namespace Raidcall
                 }
                 else if(message.Content == "@ㅁㄱ")
                 {
-                    await message.Channel.SendMessageAsync("인원 꽉참 (현재 인원 : " + among_count + " / 10 )");
+                    await message.Channel.SendMessageAsync("인원 꽉참 (현재 인원 : " + among_count + " / 10)");
                     await message.Channel.SendMessageAsync("인원수를 초기화합니다");
                     among_count = 0;
                 }
