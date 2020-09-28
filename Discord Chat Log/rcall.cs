@@ -75,21 +75,21 @@ namespace Raidcall
 
              if (Text_Channel__chat_chl || Text_Channel__mainchat_chl || Text_Channel__startchat_chl)
              {
-                for (int i = 0; i < 5; i++)
+                if(message.Content == "@ㄹㅇㄷ")
                 {
-                    await message.Channel.SendMessageAsync("@everyone 레이드!!");
+                    for (int i = 0; i < 5; i++)
+                    {
+                        await message.Channel.SendMessageAsync("@everyone 레이드!!");
+
+                    }
                 }
-            }
+             }
              else if(message.Content == "@ㄹㅇㄷ")
              {
-                if (message.Content == "@ㄹㅇㄷ")
-                {
                     await message.DeleteAsync();
-                }
              } 
-
-            if (Text_Channel__Among)
-            {
+             else if (Text_Channel__Among)
+             {
                 if (message.Content == "@ㅇㅁ")
                 {
                     await message.Channel.SendMessageAsync("@everyone 어몽 하실분 있나요");
@@ -111,7 +111,7 @@ namespace Raidcall
                 {
                     await message.Channel.SendMessageAsync(Among_Max - Among_min + "자리 남습니다. 더 하실분 . 쳐주세요");
                 }
-            }
+             }
         }
     }
 } 
